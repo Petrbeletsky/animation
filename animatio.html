@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+    /******* SEVEN A (Arc) *******/
+.sevena .shape-container {
+animation: move-right 6s infinite cubic-bezier(.37,.55,.49,.67);
+position: absolute;
+left: calc(50% - 4em);
+top: calc(50% - 4em);
+}
+.sevena .shape {
+animation: bounce 6s infinite linear;
+border-radius: 50%;
+position: relative;
+left: auto;
+top: auto;
+}
+
+.sevena .shape-container1 {
+animation: move-right 6s infinite cubic-bezier(.37,.55,.49,.67);
+position: absolute;
+left: calc(50% - 4em);
+top: calc(50% - 12em);
+}
+.sevena .shape1 {
+animation: bounce1 6s infinite linear;
+border-radius: 50%;
+position: relative;
+left: auto;
+top: auto;
+}
+
+.sevena .shape-container2 {
+animation: move-right 6s infinite cubic-bezier(.37,.55,.49,.67);
+position: absolute;
+left: calc(50% - 4em);
+top: calc(50% - 1em);
+}
+.sevena .shape2 {
+animation: bounce2 6s infinite linear;
+border-radius: 50%;
+position: relative;
+left: auto;
+top: auto;
+}
+
+.sevena .shape-container3 {
+animation: move-right 6s infinite cubic-bezier(.37,.55,.49,.67);
+position: absolute;
+left: calc(50% - 4em);
+top: calc(50% - 1em);
+}
+.sevena .shape3 {
+animation: bounce3 6s infinite linear;
+border-radius: 50%;
+position: relative;
+left: auto;
+top: auto;
+}
+
+.sevena .shape-container4 {
+animation: move-right -2s infinite cubic-bezier(.37,.55,.49,.67);
+position: absolute;
+left: calc(50% - 1em);
+top: calc(50% - 4em);
+}
+.sevena .shape4 {
+animation: bounce3 6s infinite linear;
+border-radius: 50%;
+position: relative;
+left: auto;
+top: auto;
+}
+@keyframes move-right {
+0% {
+  transform: translateX(-20em);
+  opacity: 1;
+}
+80% {
+  opacity: 1;
+}
+90%, 100% {
+  transform: translateX(20em);
+  opacity: 0;
+}
+}
+
+@keyframes bounce {
+0% {
+  transform: translateY(-8em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+15% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+25% {
+  transform: translateY(-4em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+32.5% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+40% {
+  transform: translateY(0em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+45% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+50% {
+  transform: translateY(3em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+56% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+60% {
+  transform: translateY(6em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+64% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+66% {
+  transform: translateY(7.5em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+70%, 100% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+}
+
+
+
+
+@keyframes bounce1 {
+0% {
+  transform: translateY(-8em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+15% {
+  transform: translateY(8em) scaleX(.5) scaleY(1.2);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+25% {
+  transform: translateY(-4em) );
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+32.5% {
+  transform: translateY(8em) scaleX(1.2) scaleY(.5);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+40% {
+  transform: translateY(0em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+45% {
+  transform: translateY(8em) scaleX(.5) scaleY(1.2);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+50% {
+  transform: translateY(3em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+56% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+60% {
+  transform: translateY(6em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+64% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+66% {
+  transform: translateY(7.5em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+70%, 100% {
+  transform: translateY(8em) ;
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+}
+
+@keyframes bounce2 {
+0% {
+  transform: translateY(-8em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+15% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+25% {
+  transform: translateY(-4em) );
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+32.5% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+40% {
+  transform: translateY(0em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+45% {
+  transform: translateY(8em) ;
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+50% {
+  transform: translateY(3em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+56% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+60% {
+  transform: translateY(6em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+64% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+/* 66% {
+  transform: translateY(7.5em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+70%, 100% scaleX(.5) scaleY(22){
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+} */
+}
+
+@keyframes bounce3 {
+0% {
+  transform: translateY(-5em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+15% {
+  transform: translateY(4em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+25% {
+  transform: translateY(-6em) scaleX(.3) scaleY(1.4) ;
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+32.5% {
+  transform: translateY(3em) scaleY(.3) scaleX(1.4);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+40% {
+  transform: translateY(4em) scaleY(.3) scaleX(1.4);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+45% {
+  transform: translateY(8em) ;
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+50% {
+  transform: translateY(3em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+56% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+60% {
+  transform: translateY(6em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+64% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+66% {
+  transform: translateY(7.5em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+70%, 100% scaleX(.5) scaleY(22){
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1); */
+}
+}
+
+
+@keyframes bounce4 {
+0% {
+  transform: translateY(-5em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+/* 15% { */
+  /* transform: translateY(4em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+} */
+25% {
+  transform: translateY(-6em) scaleX(.3) scaleY(1.4) ;
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+32.5% {
+  transform: translateY(3em) scaleY(.3) scaleX(1.4);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+40% {
+  transform: translateY(4em) scaleY(.3) scaleX(1.4);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+45% {
+  transform: translateY(8em) ;
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+50% {
+  transform: translateY(3em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+56% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+60% {
+  transform: translateY(6em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+64% {
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1);
+}
+66% {
+  transform: translateY(7.5em);
+  animation-timing-function: cubic-bezier(.51,.01,.79,.02);
+}
+70%, 100% scaleX(.5) scaleY(22){
+  transform: translateY(8em);
+  animation-timing-function: cubic-bezier(.19,1,.7,1); */
+}
+}
+
+
+/* General styling */
+body {
+margin: 0;
+background: #e9b59f;
+font-family: HelveticaNeue, Arial, Sans-serif;
+color: #fff;
+}
+
+h1 {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+text-align: center;
+font-weight: 300;
+}
+
+h2 {
+font-size: 0.75em;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+a {
+text-decoration: none;
+color: #333;
+}
+
+.principle {
+width: 100%;
+height: 100vh;
+position: relative;
+}
+
+.shape {
+background: #2d97db;
+border: 1em solid #fff;
+width: 4em;
+height: 4em;
+position: absolute;
+top: calc(50% - 2em);
+left: calc(50% - 2em);
+}
+
+.principle1 {
+width: 100%;
+height: 100vh;
+position: relative;
+}
+
+.shape1 {
+background: #2d97db;
+border: 1em solid #bbb;
+width: 4em;
+height: 4em;
+position: absolute;
+top: calc(50% - 6em);
+left: calc(50% - 2em);
+}
+
+.principle2 {
+width: 100%;
+height: 100vh;
+position: relative;
+}
+
+.shape2 {
+background: #2d97db;
+border: 1em solid #2d97ab;
+width: 4em;
+height: 4em;
+position: absolute;
+top: calc(50% - 10em);
+left: calc(50% - 2em);
+}
+
+.principle3 {
+width: 100%;
+height: 100vh;
+position: relative;
+}
+
+.shape3 {
+background: #2d97db;
+border: 1em solid #2a77aa;
+width: 4em;
+height: 4em;
+position: absolute;
+top: calc(50% - 26em);
+left: calc(50% - 7em);
+}
+
+.principle4 {
+width: 100%;
+height: 100vh;
+position: relative;
+}
+
+.shape4 {
+background: #2d97db;
+border: 1em solid #2277aa;
+width: 4em;
+height: 4em;
+position: absolute;
+top: calc(50% - 5em);
+left: calc(50% - 7em);
+}
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Principle 7: Arc (1)</h1>
+<h2><a href="https://cssanimation.rocks/principles/" target="_parent">Animation Principles for the Web</h2>
+<article class="principle sevena">
+    <div class="shape-container">
+      <div class="shape a"></div>
+    </div>
+
+    <div class="shape-container1">
+      <div class="shape1 a1"></div>
+    </div>
+
+
+    <div class="shape-container2">
+      <div class="shape2 a2"></div>
+    </div>
+
+
+    <div class="shape-container3">
+      <div class="shape3 a3"></div>
+    </div>
+
+    <div class="shape-container4">
+      <div class="shape4 a4"></div>
+    </div>
+
+    <div class="shape-container5">
+      <div class="shape5 a5"></div>
+    </div>
+  </article>
+  </body>
+</html>
